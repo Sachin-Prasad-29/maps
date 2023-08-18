@@ -574,8 +574,17 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"h7u1C":[function(require,module,exports) {
-console.log("Hi There");
+/// <reference types="@types/google.maps" />
+// import { User } from './User';
+// import { Company } from './Company';
+new google.maps.Map(document.getElementById("map"), {
+    zoom: 1,
+    center: {
+        lat: 0,
+        lng: 0
+    }
+});
 
-},{}]},["5GKCo","h7u1C"], "h7u1C", "parcelRequire94c2")
+},{}]},["5GKCo","h7u1C"], "h7u1C", "parcelRequire57d4")
 
 //# sourceMappingURL=index.b71e74eb.js.map
